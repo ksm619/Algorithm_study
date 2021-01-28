@@ -1,5 +1,6 @@
 # 짝지어 제거하기
 
+# 효울성 테스트 실패
 def solution(s):
     answer = 0
     i = 0
@@ -13,8 +14,7 @@ def solution(s):
     if len(s) == 0:
         answer = 1
 
-
-
+# 효율성 테스트 성공
 def solution(s):
     stack = []
     for i in s:
